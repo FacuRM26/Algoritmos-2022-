@@ -27,19 +27,17 @@ void radixSort(int *arr, int n, int max) {
    }
 }
 //f(n)=2+1+m(3+5+4+n(3+3+2+4)+1+10(j(5+5)))
-//2+1n(3+5+4+1n(3+3+2+4)+1+n(3+n(3+5+4)))=3+13n((12)+2+n(3+n(9)))=3+156n+2n+n
 //O(n*k)=donde n es el numero de llaves y k es la longuitud de la llave
 /*Loop invariant=Justo antes de cada iteracion del bucle exterior con un valor particular de i, los numeros en la lista esta ordenado según los valores  
 inducidos por sus ultimos i digitos.*/
 
 
 
-// m*n squares
 int coste(int m, int n,int x[], int y[])
 {
    m--;//2
    n--;//2
-    //  sort para ordenar los dos array de mayor a menor.
+    //sort para ordenar los dos array de mayor a menor.
     sort(x, x + m, greater<int>());
     sort(y, y + n, greater<int>());
     int horizon = 1, verti = 1,i = 0, j = 0,resultado = 0;//5
