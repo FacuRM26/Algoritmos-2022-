@@ -1,3 +1,6 @@
+#>>Caso 2
+##>>Fabricio Ríos Montero
+
 Los tiempos no se tomaron los dados por el clock ya que da numeros algo confusos, por lo que se uso el tiempo de ejecucion total que da el programa al 
 terminar, el clock se puso por un tema estetico
 
