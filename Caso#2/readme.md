@@ -3,14 +3,22 @@ terminar, el clock se puso por un tema estetico
 
 
 Quicksort Logaritmico:
+
+
 Para comprobarlo se insertaran valores de 200 mil en 200 mil empenzando en 200 mil.
+
+
 Se llenara el array con elementos aleatorios y se tomara como pivote el primer elemento del arreglo.
+
+
 Resultados del tiempo segun cantidad de elementos en el arreglo:
 t1=200.000=0.923
 t2=400.000=1.044
 t3=600.000=1.383
 t4=800.000=1.607
 t5=1.000.000=1.069
+
+
 Ahora remplzamos la n con la cantidad de valores en el array en log(n)=
 l1=5.301
 l2=5.602
